@@ -582,7 +582,7 @@ public class InCallManagerModule extends ReactContextBaseJavaModule implements L
             forceSpeakerOn = 0;
             hasWiredHeadset = hasWiredHeadset();
             defaultAudioDevice = (defaultSpeakerOn) ? AudioDevice.SPEAKER_PHONE : (hasEarpiece()) ? AudioDevice.EARPIECE : AudioDevice.SPEAKER_PHONE;
-            userSelectedAudioDevice = AudioDevice.NONE;
+            userSelectedAudioDevice = AudioDevice.BLUETOOTH;
             selectedAudioDevice = AudioDevice.NONE;
             audioDevices.clear();
             updateAudioRoute();
